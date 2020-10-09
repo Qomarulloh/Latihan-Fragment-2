@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/navigation"
+    app:startDestination="@id/formFragment"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <fragment
+        android:id="@+id/formFragment"
+        android:name="com.example.android.latihanfragment.FormFragment"
+        android:label="FormFragment"
+        tools:layout="@layout/fragment_form">
+        <action
+            android:id="@+id/action_formFragment_to_hasilFragment"
+            app:destination="@id/hasilFragment"/>
+    </fragment>
+    <fragment
+        android:id="@+id/hasilFragment"
+        android:name="com.example.android.latihanfragment.HasilFragment"
+        android:label="HasilFragment"
+        tools:layout="@layout/fragment_hasil"/>
+</navigation>

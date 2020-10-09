@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Latihan Fragment</string>
+    <string name="nama_format">Nama: %s</string>
+    <string name="nik_format">NIK: %s</string>
+    <string name="usia_format">Usia: %s tahun</string>
+    <string name="jk_format">Jenis Kelamin: %s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
